@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+    <title>Paulo Henrique</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="imagens/logo-oficial.png" alt="Logo Paulo Henrique" />
+      </div>
+      <ul>
+        <li>
+          <a href="https://github.com/paulohenrique3140" target="_blank"
+            ><img src="imagens/github.png" alt="Logo Github" /> github</a
+          >
+        </li>
+        <li>
+          <a href="mailto:paulohenrique3140@outlook.com" target="_blank"
+            ><img src="imagens/email.png" alt="Logo Outlook" /> e-mail</a
+          >
+        </li>
+        <li>
+          <a href="https://wa.me/11934069298" target="_blank"
+            ><img src="imagens/whatsapp.png" alt="Logo Whatsapp" /> whatsapp</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="container">
+        <div class="name">
+          <h1>Paulo Henrique</h1>
+          <h5>Full Stack Developer <em>&lt;in progress /&gt;</em></h5>
+        </div>
+
+        <div onclick="displayAbout()" id="arrow">
+          <i id="animation" class="fa-solid fa-angle-down"></i>
+        </div>
+
+        <div style="display:none;" id="about">
+          <p>
+            Recém apaixonado por tecnologia e todas as suas mais lindas curvas e ramificações! Paulista, músico, agente de viagens, futuro dev, em processo de evolução pelo Hiring Coders, apoiador da causa das minorias e da igualdade social. Focado no objetivo sem esquecer de aproveitar cada momento do percurso até ele.
+            <p>Meu lema: <cite>"O segredo da motivação é fazer o que deve ser feito, independente se estiver com vontade ou não! A disciplina vem como consequência."</cite></p>
+          </p>
+          <p>
+            Abaixo, citei alguns hobbies para me conhecerem melhor:
+          </p>
+          <div class="flex">
+            <div>
+              <img src="imagens/piano.png" alt="Foto Piano" />
+              <p>
+                Sou músico desde os 13 anos! Toco violão, guitarra, teclado e componho algumas músicas. Nada profissional, pratico mais como um movimento de "esvaziar da mente".
+              </p>
+            </div>
+
+            <div>
+              <img src="imagens/livro.png" alt="Foto Livro" />
+              <p>
+                Eu leio muito no busão! Não sou do tipo que senta em casa e lê durante horas. Mas durante todo o meu trajeto diário ao meu trabalho estou lendo, e acredite, isso é MUITO tempo!
+              </p>
+            </div>
+            <div>
+              <img src="imagens/cinema.png" alt="Foto Filme" />
+              <p>
+                Gosto de filmes e séries que, em forma de metáfora ou não, são verdadeiras críticas sociais e que nos fazem refletir sobre a realidade. Meus favoritos são: Matrix e Mr Robot.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form">
+          <form action="">
+            <p>deixe seu contato!</p>
+            <input type="text" placeholder="seu melhor e-mail :)" />
+            <button>enviar!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script>
+      function displayAbout() {
+        var arrow = document.getElementById('animation');
+        arrow.classList.toggle('rotate');
+        var display = document.getElementById('about');
+        display.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
