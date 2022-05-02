@@ -155,7 +155,7 @@ header ul li a:hover {
   .form {
     width: 100%; 
   }
-
+  
   .flex {
     display: block;
   }
@@ -175,6 +175,12 @@ header ul li a:hover {
   #about p {
     max-width: 80%;
     text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .form button {
+    width: 30%;
   }
 }
  
