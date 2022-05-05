@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #200820;
+  color: #3b0f6d;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -21,7 +21,7 @@ a {
 }
 
 body {
-  background: linear-gradient(90deg, #7F00FF, #E100FF);
+  background: linear-gradient(90deg, #8e9eab, #eef2f3);
 }
 
 header {
@@ -29,7 +29,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  box-shadow: 1px 1px 10px 1px #D07090;
+  box-shadow: 1px 1px 10px 1px #3b0f6d;
   margin-bottom: 45px;
 }
 
@@ -39,11 +39,11 @@ header ul {
 
 header ul li {
   padding: 8px;
-  border-right: 2px dashed #D07090;
+  border-right: 2px dashed #3b0f6d;
 }
 
 header ul li:first-child {
-  border-left: 2px dashed #D07090;
+  border-left: 2px dashed #3b0f6d;
 }
 header ul li a {
   transition: 300ms;
@@ -96,6 +96,11 @@ header ul li a:hover {
   margin: 0 auto;
 }
 
+#foto img {
+  margin: 30px;
+  text-align: center;
+  }
+
 .flex {
   display: flex;
   justify-content: center;
@@ -115,29 +120,29 @@ header ul li a:hover {
   width: 40%;
   margin: 0 auto;
   margin-top: 30px;
-  border: double rgba(208, 112, 144, 0.384);
+  border: double rgba(59, 15, 109, 0.2);
   padding: 25px;
   border-radius: 15px;
 }
 
 .form input {
   width: 50%;
-  background: linear-gradient(90deg, #D07090, #FFFFFF);
+  background: linear-gradient(90deg, #c6afe0, #FFFFFF);
   border-radius: 5px 0px 0px 5px;
   padding: 5px 10px ;
   border: none;
 }
 
 .form input:hover {
-  background: linear-gradient(90deg, #FFFFFF, #D07090);
+  background: linear-gradient(90deg, #FFFFFF, #8963b4);
 }
 
 .form button {
   width: 15%;
-  background: linear-gradient(90deg, #D07090, #FFFFFF);
+  background: linear-gradient(90deg, #c6afe0, #FFFFFF);
   border-radius: 0px 5px 5px 0px;
   padding: 5px 10px;
-  color: #200820;
+  color: #3b0f6d;
   font-weight: 600;
   border: none;
   cursor: -webkit-grabbing;
@@ -147,7 +152,7 @@ header ul li a:hover {
 }
 
 .form button:hover {
-  background: linear-gradient(90deg, #FFFFFF, #D07090);
+  background: linear-gradient(90deg, #FFFFFF, #3b0f6d);
   color: #7F00FF;
 }
 
@@ -161,7 +166,7 @@ header ul li a:hover {
   }
 }
 
-@media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 600px) { 
   .container .name h1 {
     font-size: 30px;
   }
